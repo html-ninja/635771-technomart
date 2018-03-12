@@ -7,12 +7,12 @@
   <body>
     <header class="page-header">
       <section class="header-top">
-        <a class="logo" href="index.html">
+        <a class="logo" href="index.html" aria-label="Ссылка на главную страницу">
           <img src="#" width="" height="" alt="Логотип Магазина Техномарт">
         </a>
-        <form class="search" method="post">
-          <label>Поиск
-            <input type="search">
+        <form class="search" method="post" action="https://echo.htmlacademy.ru">
+          <label aria-label="Строка поиска">Поиск
+            <input type="search" name="search">
           </label>
         </form>
         <a class="store-nav store-nav-bookmarks" href="#">Закладки: 0</a>
@@ -47,24 +47,24 @@
         <h2 class="visually-hidden">Услуги</h2>
           <div class="services-list-item">
             <h3>Материалы</h3>
-            <a class="add-info">На любой вкус</a>
+            <a class="add-info" aria-label="Ссылка на страницу каталога с материалами">На любой вкус</a>
             <span class="label-new"></span>
           </div>
           <div class="services-list-item">
             <h3>Инструмент</h3>
-            <a class="add-info">На все случаи</a>
+            <a class="add-info" aria-label="Ссылка на страницу каталога с инструментами">На все случаи</a>
           </div>
           <div class="services-list-item">
             <h3>Техника</h3>
-            <a class="add-info">Для стройки</a>
+            <a class="add-info" aria-label="Ссылка на страницу каталога с техникой">Для стройки</a>
           </div>
           <div class="services-list-item">
             <h3>Скидки 50%</h3>
-            <a class="add-info">на 350 товаров</a>
+            <a class="add-info" aria-label="Ссылка на страницу каталога с товарами со скидкой">на 350 товаров</a>
           </div>
           <div class="services-list-item">
             <h3>Доставка</h3>
-            <a class="add-info">Бесплатно</a>
+            <a class="add-info" aria-label="Ссылка на страницу с условиями доставки">Бесплатно</a>
           </div>
         <div class="slider">
           <div class="slides">
@@ -72,18 +72,18 @@
               <h3 class="slider-item-title">Перфораторы</h3>
               <span>Настоящие мужские игрушки</span>
               <img class="slider-item-1" src="img/slide-1.jpg" width="620" height="266" alt="Перфораторы">
-              <button class="slide-1" type="" aria-label="Слайд с Перфораторами"></button>
+              <button class="slide-1" type="button" aria-label="Слайд с Перфораторами"></button>
             </div>
             <div class="slider-drill">
               <h3 class="slider-item-title">Дрели</h3>
               <span>Соседям на радость!</span>
               <img class="slider-item-2" src="img/slide-2.jpg" width="620" height="266" alt="Дрели">
-              <button class="slide-2" type="" aria-label="Слайд с Перфораторами"></button>
+              <button class="slide-2" type="button" aria-label="Слайд с Дрелями"></button>
             </div>
           </div>
           <div class="slider-navigation">
-            <button class="arrow-left" type=""></button>
-            <button class="arrow-right" type=""></button>
+            <button class="arrow-left" type="button" aria-label="Предыдущий слайд"></button>
+            <button class="arrow-right" type="button" aria-label="Следующий слайд"></button>
           </div>
           <a href="catalog.html">Открыть каталог</a>
         </div>
@@ -94,64 +94,56 @@
         <h2 class="visually-hidden">Список популярных товаров:</h2>
         <ul class="goods-list">
           <li class="goods-list-item">
-            <h3>
-              <a class="good-list-item" href=#>
+            <a class="good-list-item-link" href=#>
+              <h3>
                 <span class="category-item">Перфоратор</span>
                 <span class="good-list-item-title">BOSCH BFG 9000</span>
-              </a>
-            </h3>
-            <a href="catalog-item.html">
+              </h3>
               <img class="goods-list-img-1" src="img/good-1.jpg" width="214" height="160" alt="Перфоратор BOSCH BFG 9000">
+              <p class="goods-list-item-price">
+                <b class="goods-price-old">32500Р.</b>
+                <b class="goods-price-new">25500Р.</b>
+              </p>
             </a>
-            <p class="goods-list-item-price">
-              <b class="goods-price-old">32500Р.</b>
-              <b class="goods-price-new">25500Р.</b>
-            </p>
           </li>
           <li class="goods-list-item">
-            <h3>
-              <a class="good-list-item" href=#>
+            <a class="good-list-item-link" href=#>
+              <h3>
                 <span class="category-item">Перфоратор</span>
                 <span class="good-list-item-title">BOSCH BFG 3000</span>
-              </a>
-            </h3>
-            <a href="catalog-item.html">
+              </h3>
               <img class="goods-list-img-2" src="img/good-2.jpg" width="214" height="160" alt="Перфоратор BOSCH BFG 3000">
+              <p class="goods-list-item-price">
+                <b class="goods-price-old">22500Р.</b>
+                <b class="goods-price-new">15500Р.</b>
+              </p>
             </a>
-            <p class="goods-list-item-price">
-              <b class="goods-price-old">22500Р.</b>
-              <b class="goods-price-new">15500Р.</b>
-            </p>
           </li>
           <li class="goods-list-item">
-            <h3>
-              <a class="good-list-item" href=#>
+            <a class="good-list-item-link" href=#>
+              <h3>
                 <span class="category-item">Перфоратор</span>
                 <span class="good-list-item-title">BOSCH BFG 6000</span>
-              </a>
-            </h3>
-            <a href="catalog-item.html">
+              </h3>
               <img class="goods-list-img-3" src="img/good-3.jpg" width="214" height="160" alt="Перфоратор BOSCH BFG 6000">
+              <p class="goods-list-item-price">
+                <b class="goods-price-old">30500Р.</b>
+                <b class="goods-price-new">25500Р.</b>
+              </p>
             </a>
-            <p class="goods-list-item-price">
-              <b class="goods-price-old">30500Р.</b>
-              <b class="goods-price-new">25500Р.</b>
-            </p>
           </li>
           <li class="goods-list-item">
-            <h3>
-              <a class="good-list-item" href=#>
+            <a class="good-list-item-link" href=#>
+              <h3>
                 <span class="category-item">Перфоратор</span>
                 <span class="good-list-item-title">BOSCH BFG 2000</span>
-              </a>
-            </h3>
-            <a href="catalog-item.html">
-                <img class="goods-list-img-4" src="img/good-2.jpg" width="214" height="160" alt="Перфоратор BOSCH BFG 2000">
+              </h3>
+              <img class="goods-list-img-4" src="img/good-2.jpg" width="214" height="160" alt="Перфоратор BOSCH BFG 2000">
+              <p class="goods-list-item-price">
+                <b class="goods-price-new">12500Р.</b>
+              </p>
+              <span class="label-new"></span>
             </a>
-            <p class="goods-list-item-price">
-              <b class="goods-price-new">12500Р.</b>
-            </p>
-            <span class="label-new"></span>
           </li>
         </ul>
       </section>
@@ -161,42 +153,42 @@
         <h2 class="visually-hidden">Список популярных производителей:</h2>
         <ul class="popular-manufacturers-list">
           <li class="popular-manufacturers-list-item">
-            <a class="popular-manufacturers-link" href="#">
+            <a class="popular-manufacturers-link" href="#" aria-label="Ссылка на страницу производителя Bosch">
               <img class="manufaturer-pic" src="img/bosch.jpg" width="126" height="37" alt="Bosch">
             </a>
           </li>
           <li class="popular-manufacturers-list-item">
-            <a class="popular-manufacturers-link" href="#">
+            <a class="popular-manufacturers-link" href="#" aria-label="Ссылка на страницу производителя Makita">
               <img class="manufaturer-pic" src="img/makita.jpg" width="123" height="40" alt="Makita">
             </a>
           </li>
           <li class="popular-manufacturers-list-item">
-            <a class="popular-manufacturers-link" href="#">
+            <a class="popular-manufacturers-link" href="#" aria-label="Ссылка на страницу производителя Dewalt">
             <img class="manufaturer-pic" src="img/dewalt.jpg" width="146" height="44" alt="Dewalt">
             </a>
           </li>
           <li class="popular-manufacturers-list-item">
-            <a class="popular-manufacturers-link" href="#">
+            <a class="popular-manufacturers-link" href="#" aria-label="Ссылка на страницу производителя Интерскол">
               <img class="manufaturer-pic" src="img/interskol.jpg" width="184" height="32" alt="Интерскол">
             </a>
           </li>
           <li class="popular-manufacturers-list-item">
-            <a class="popular-manufacturers-link" href="#">
+            <a class="popular-manufacturers-link" href="#" aria-label="Ссылка на страницу производителя Hitachi">
               <img class="manufaturer-pic" src="img/hitachi.jpg" width="169" height="31" alt="Hitachi">
             </a>
           </li>
           <li class="popular-manufacturers-list-item">
-            <a class="popular-manufacturers-link" href="#">
+            <a class="popular-manufacturers-link" href="#" aria-label="Ссылка на страницу производителя Lg">
               <img class="manufaturer-pic" src="img/lg.jpg" width="121" height="73" alt="Lg">
             </a>
           </li>
           <li class="popular-manufacturers-list-item">
-            <a class="popular-manufacturers-link" href="#">
+            <a class="popular-manufacturers-link" href="#" aria-label="Ссылка на страницу производителя Aeg">
               <img class="manufaturer-pic" src="img/aeg.jpg" width="151" height="96" alt="Aeg">
             </a>
           </li>
           <li class="popular-manufacturers-list-item">
-            <a class="popular-manufacturers-link" href="#">
+            <a class="popular-manufacturers-link" href="#" aria-label="Ссылка на страницу производителя Metabo">
               <img class="manufaturer-pic" src="img/metabo.jpg" width="204" height="69" alt="Metabo">
             </a>
           </li>
@@ -271,20 +263,21 @@
           Вы можете забрать товар сами,
           заехав в наш офис:
         </p>
-        <a class="map-redirect" href="#">
+        <a class="map-redirect" href="#" aria-label="Открыть крупное отображение карты">
         <img class="map" src="img/map.png" width="300" height="158" alt="Офис на карте">
         </a>
-        <a class="write-us" href="#">Заблудились? Напишите нам!</a>
+        <a class="write-us" href="#" aria-label="Открыть форму обратной связи">Заблудились? Напишите нам!</a>
       </section>
     </main>
     <footer class="page-footer">
       <section class="footer-top">
-        <a class="logo" href="index.html">
+        <a class="logo" href="index.html" aria-label="Ссылка на главную страницу магазина">
           <img src="#" width="" height="" alt="Логотип Магазина Техномарт">
         </a>
         <b>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
         +7 (812) 555-05-55
         </b>
+        <h2 class="visually-hidden">Список разделов сайта</h2>
         <ul class="footer-list">
           <li class="footer-list-item"><a href="#">Компания</a></li>
           <li class="footer-list-item"><a href="#">Новости</a></li>
@@ -305,36 +298,36 @@
         </p>
         <h3 class="visually-hidden">Список ссылок на соц. сети</h3>
         <ul class="social-media-list">
-          <li class="social-media-list-item"><a class="vk" href="#"></a></li>
-          <li class="social-media-list-item"><a class="fb" href="#"></a></li>
-          <li class="social-media-list-item"><a class="in" href="#"></a></li>
+          <li class="social-media-list-item"><a class="vk" href="#" aria-label="ссылка на страницу ВКонтакте"></a></li>
+          <li class="social-media-list-item"><a class="fb" href="#" aria-label="ссылка на страницу в Фэйсбук"></a></li>
+          <li class="social-media-list-item"><a class="in" href="#" aria-label="ссылка на страницу в Инстаграм"></a></li>
         </ul>
         <p class="footer-feedback">
           <b>Обратная связь:</b>
-          <a class="all-news-btn" href="#">mail@htmlacademy.ru</a>
+          <a class="all-news-btn" href="#" aria-label="Написать на электронную почту">mail@htmlacademy.ru</a>
         </p>
         <p class="footer-copyright">
           <b>Разработано — </b>
-          <a class="all-news-btn" href="#">HTML ACADEMY</a>
+          <a class="all-news-btn" href="#" aria-label="Ссылка на сайт разработчика">HTML ACADEMY</a>
         </p>
       </section>
     </footer>
     <section class="modal-window">
       <h2 class="visually-hidden">Форма отправки</h2>
-      <button class="modal-close" type="" aria-label="Закрыть форму отправки"></button>
-      <form class="write-us-form" method="post">
-        <label>Ваше имя
-          <input type="text" placeholder="Представьтесь, пожалуйста">
+      <button class="modal-close" type="button" aria-label="Закрыть форму отправки"></button>
+      <form class="write-us-form" method="post" action="https://echo.htmlacademy.ru">
+        <label aria-label="поле для ввода имени">Ваше имя
+          <input type="text" placeholder="Представьтесь, пожалуйста" aria-label="Поле для ввода вашего имени" name="name">
         </label>
         <label>Ваш e-mail:
-          <input type="text" placeholder="Для отправки ответа">
+          <input type="text" placeholder="Для отправки ответа" aria-label="Поле для ввода вашей электронной почты" name="email">
         </label>
-        <label>Текст письма:<br>
+        <label aria-label="Поле для ввода текста письма">Текст письма:<br>
           <textarea rows="5" cols="60">
-        В свободной форме
+            В свободной форме
           </textarea>
         </label>
-        <input type="submit" value="Отправить">
+        <input type="submit" value="Отправить" aria-label="Кнопка отправки">
       </form>
     </section>
   </body>
