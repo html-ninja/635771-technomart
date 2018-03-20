@@ -1,0 +1,737 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-top {
+  background-color:#293449;
+}
+
+.logo {
+  font-size: 24px;
+  line-height: 24px;
+  color:#ffffff;
+  background-color: #ee3643;
+  border-bottom:5px solid #b52933;
+  text-transform: uppercase;
+}
+
+.logo:hover,
+.logo:focus {
+  background-color: #ca2c37;
+  border-bottom:5px solid #9a212a;
+}
+
+.logo:active {
+  background-color: #ba2732;
+  border-bottom:5px solid #8e1e26;
+}
+
+.search-field {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.search-field:hover {
+  background-color: #212a3a;
+}
+
+.search input {
+  background-color: #293449;
+  border:none;
+}
+
+.search input:hover {
+  background-color: #212a3a;
+}
+
+.search input:focus {
+  font-family: inherit;
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+.store-nav {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.store-nav:hover,
+.store-nav:focus {
+  background-color: #212a3a;
+}
+
+.store-nav:active {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #161d29;
+}
+
+.order {
+  font-size: 17px;
+  line-height: 18px;
+  color:#ffffff;
+  background-color: #63a63e;
+}
+
+.order:hover,
+.order:focus {
+  background-color: #5fbb2d;
+}
+
+.order:active {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #518534;
+}
+
+.header-middle {
+  background-color: #f3f7f9;
+}
+
+.main-heading {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.phone {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+  border: 3px solid #ffffff;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+.login-list-main {
+  list-style: none;
+}
+
+.login-list-main-item {
+  background-color: #ffffff;
+}
+
+.login-list-main-item a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.login-list-main-item a:hover,
+.login-list-main-item a:focus {
+  color: #ee3643;
+}
+
+.login-list-main-item a:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.main-nav {
+  background-color: #32425c;
+  border-bottom: 5px solid #293449;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-list a {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus {
+  background-color: #293449;
+}
+
+.navigation-list a:active {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #1d2739;
+}
+
+.main {
+  background-color: #ffffff;
+}
+
+.service-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.services-list-materials {
+  background-color:#ffbf47;
+}
+
+.services-list-tools {
+  background-color:#3bbce3;
+}
+
+.services-list-technics {
+  background-color:#dc91d8;
+}
+
+.services-list-sale {
+  background-color:#8ed78f;
+}
+
+.services-list-delivery {
+  background-color:#ffc047;
+}
+
+.services-list .add-info {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: rgba(229, 229, 229, 0.1);
+  text-transform: uppercase;
+}
+
+.services-list .add-info:hover,
+.services-list .add-info:focus {
+  background-color: rgba(229, 229, 229, 0.2);
+}
+
+.services-list .add-info:active {
+  background-color: rgba(229, 229, 229, 0.3);
+}
+
+.slider-item-title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.slide-description {
+  font-family: "PT-Sans";
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.catalog-link {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #ee3643;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.catalog-link:hover,
+.catalog-link:focus {
+  background-color: #ca2c37;
+}
+
+.catalog-link:active {
+  background-color: #ba2732;
+}
+
+.popular-goods-block,
+.popular-manufacturers-block {
+  background-color: #f9f5f0;
+}
+
+.popular-goods-title,
+.popular-manufacturers-title {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+}
+
+.goods-list,
+.popular-manufacturers-list {
+  list-style: none;
+}
+
+.goods-list li,
+.popular-manufacturers-list li {
+  border:1px solid #eaeaea;
+}
+
+.goods-list li:hover {
+  box-shadow: 0px 10px 25px 0px rgba(41, 52, 73, 0.5);
+}
+
+.good-title {
+  font-family:"PT Sans";
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.goods-price-old {
+  font-family:"PT Sans";
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #a9a9a9;
+  text-decoration: line-through;
+}
+
+.goods-price-new {
+  font-family:"PT Sans";
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.popular-manufacturers-list li:hover {
+  box-shadow: 0px 10px 25px 0px rgba(41, 52, 73, 0.5);
+}
+
+.popular-manufacturers-list li:active {
+  box-shadow: 0px 4px 10px 0px rgba(41, 52, 73, 0.5);
+  opacity: 0.3;
+}
+
+.supplies {
+  background-color: #f4f8f9;
+}
+
+.supplies-block-title {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.supplies-info {
+  font-family:"PT Sans";
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.supplies-list {
+  list-style: none;
+}
+
+.supplies-list-link {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight:bold;
+  color: #ffffff;
+
+  border-top: 1px solid #405069;
+  border-bottom: 1px solid #293449;
+  background-color: #32425c;
+}
+
+.supplies-list-link:hover,
+.supplies-list-link:focus {
+  background-color: #293449;
+}
+
+.supplies-list-link:active,
+.supplies-list-link-current {
+  color: #32425c;
+  background-color: #ffffff;
+  border:none;
+}
+
+.supplies-list-link-current:hover,
+.supplies-list-link-current:focus {
+  background-color: transparent;
+}
+
+.supplies-description-title {
+  font-size: 36px;
+  line-height: 36px;
+  color: #32425c;
+}
+
+.supplies-description-info {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.about-us-title {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.about-us-text {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.delivery-companies-list {
+  list-style: none;
+}
+
+.delivery-companies-list li {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.about-us-link {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #ee3643;
+  text-transform: uppercase;
+}
+
+.footer-top {
+  background-color: #32425c;
+}
+
+.footer-address {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f1f5f7;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+}
+
+.footer-list-yellow a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffda96;
+}
+
+.footer-list a:hover,
+.footer-list a:focus,
+.footer-list-yellow a:hover,
+.footer-list-yellow a:focus {
+  text-decoration: underline;
+}
+
+.footer-list a:active,
+.footer-list-yellow a:active {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.footer-bottom {
+  background-color: #293449;
+}
+
+.footer-bottom-text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.social-media-list {
+  list-style: none;
+}
+
+.social-media-list a {
+  background-color: #212a3a;
+}
+
+.social-media-list a:hover,
+.social-media-list a:focus,
+.social-media-list a:active {
+  background-color: #ee3643;
+}
+
+.footer-feedback,
+.footer-copyright {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.link-to {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffd180;
+}
+
+.link-to:hover,
+.link-to:focus {
+  text-decoration: underline;
+}
+.link-to:active {
+  text-decoration: none;
+  color: #ee3643;
+}
+
+
+.modal-window {
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.75);
+  border-top: 7px solid #ff5357;
+}
+
+.your-name,
+.your-email,
+.your-message {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.write-us-form input,
+.message-field{
+  font-family:"PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
+  border: 2px solid #dee3e4;
+}
+
+.modal-bottom {
+  border: none;
+  background-color: #f4f4f4;
+}
+
+.write-us-form input[type=submit] {
+  font-family: "Cuprum";
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #ee3643;
+  text-transform: uppercase;
+}
+
+.write-us-form input[type=submit]:hover,
+.write-us-form input[type=submit]:focus {
+  background-color: #ca2c37;
+}
+
+.write-us-form input[type=submit]:active {
+  background-color: #ba2732;
+}
+
+.map-pop-up {
+  box-shadow: 0px 0px 14.72px 1.28px rgba(47, 42, 43, 0.5);
+}
+
+/*Стили каталога*/
+
+.login-list {
+  list-style: none;
+}
+
+.login-list li:first-child {
+  background-color: #ffffff;
+}
+
+.login-list-item a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.login-list-item a:hover,
+.login-list-item a:focus {
+  color: #ee3643;
+}
+
+.login-list-item a:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.login-list-item-account a:first-child:hover,
+.login-list-item-account a:first-child:focus
+ {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.login-list li:nth-child(2) a,
+.login-list li:nth-child(3) a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration:underline;
+}
+
+.login-list li:nth-child(2) a:hover,
+.login-list li:nth-child(2) a:focus,
+.login-list li:nth-child(3) a:hover,
+.login-list li:nth-child(3) a:focus {
+  color: #ee3643;
+}
+
+.login-list li:nth-child(2) a:active,
+.login-list li:nth-child(3) a:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.main-catalog {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a,
+.filter-manufacturers-title{
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.perforators-block {
+  background-color: #f2f6f8;
+}
+
+.perforators-block-title{
+  font-family: "Cuprum";
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+}
+
+.filter-block {
+  background-color: #f7f3ec;
+}
+
+.manufacturers-form-fieldset {
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.manufacturers-form-fieldset:last-of-type {
+  border: none;
+}
+
+.filter-legend {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.filter-input-label {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.manufacturers-form input[type=submit] {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #e5e5e5;
+  text-transform: uppercase;
+}
+
+.sort-list {
+  list-style: none;
+}
+
+.sort-list a {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dotted #ee3643;
+}
+
+.sort-list a:hover,
+.sort-list a:focus {
+  color: rgba(0, 0, 0, 1);
+  border-bottom: 1px solid #ee3643;
+}
+
+.sort-list a:active {
+  color: rgba(238, 54, 67, 1);
+  border: none;
+}
+
+.page-switcher {
+  list-style: none;
+}
+
+.page-switcher li:first-child a {
+  border: none;
+}
+
+.page-switcher-item a:hover,
+.page-switcher-item a:focus {
+  border: 1px solid #bdc6ca;
+}
+
+
+.page-switcher-item a:active {
+  border: 1px solid #ee3643;
+}
+
+.page-switcher a {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid #e5e5e5;
+}
+
+.page-switcher-current a,
+.page-switcher-current a:hover,
+.page-switcher-current a:focus,
+.page-switcher-current a:active {
+  background-color: #ee3643;
+  border: none;
+}
+
+.page-switcher-current a {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.about-perforators {
+  background-color: #f2f6f8;
+}
+
+.about-perforators-text {
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: none;
+}
