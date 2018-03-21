@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum|PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -28,13 +28,13 @@
           <b class="phone">+7 (812) 555-05-55</b>
           <b class="address">г. Санкт-Петербург, ул.Б. Конюшенная, д. 19/8</b>
         </p>
-        <ul class="login-list">
-          <li class="login-list-item login-list-item-account">
-            <a class="login-list-item-myaccount" href="#" aria-label="Ссылка в личный кабинет">Равшан Джамшутович</a>
-            <a href="login-list-item-logout" href="#" aria-label="Выйти из аккаунта"></a>
-          </li>
-          <li class="login-list-item"><a href="#">Мои заказы</a></li>
-          <li class="login-list-item login-list-item-mark"><a href="#">Личный кабинет</a></li>
+        <div class="login-block">
+          <div class="login-block-item login-block-item-account">
+            <a class="login-block-item-myaccount" href="#" aria-label="Ссылка в личный кабинет">Равшан Джамшутович</a>
+            <a href="login-block-item-logout" href="#" aria-label="Выйти из аккаунта"></a>
+          </div>
+          <div class="login-block-item"><a href="#">Мои заказы</a></li>
+          <div class="login-block-item login-block-item-mark"><a href="#">Личный кабинет</a></li>
         </ul>
       </section>
       <nav class="main-nav">
@@ -67,6 +67,10 @@
            <form class="manufacturers-form" method="get" action="https://echo.htmlacademy.ru">
              <fieldset class="manufacturers-form-fieldset"><legend class="filter-legend">Цена:</legend>
                <input class="form-input form-input-range" type="range" min="0" max="30500" step="500" name="price">
+               <div class="range-input">
+                 <span class="span-handler"></span>
+                 <span class="span-handler"></span>
+               </div>
              </fieldset>
              <fieldset class="manufacturers-form-fieldset"><legend class="filter-legend">Производители:</legend>
                <label class="filter-input-label" aria-label="Поле для выбора производителя Bosch">

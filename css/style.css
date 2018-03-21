@@ -5,7 +5,7 @@ body {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 }
 
 .header-top {
-  background-color:#293449;
+  background-color: #293449;
 }
 
 .logo {
@@ -21,19 +21,19 @@ a {
   line-height: 24px;
   color:#ffffff;
   background-color: #ee3643;
-  border-bottom:5px solid #b52933;
+  border-bottom: 5px solid #b52933;
   text-transform: uppercase;
 }
 
 .logo:hover,
 .logo:focus {
   background-color: #ca2c37;
-  border-bottom:5px solid #9a212a;
+  border-bottom: 5px solid #9a212a;
 }
 
 .logo:active {
   background-color: #ba2732;
-  border-bottom:5px solid #8e1e26;
+  border-bottom: 5px solid #8e1e26;
 }
 
 .search-field {
@@ -81,7 +81,7 @@ a {
 .order {
   font-size: 17px;
   line-height: 18px;
-  color:#ffffff;
+  color: #ffffff;
   background-color: #63a63e;
 }
 
@@ -175,28 +175,28 @@ a {
 .service-title {
   font-size: 24px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
   color: #ffffff;
 }
 
 .services-list-materials {
-  background-color:#ffbf47;
+  background-color: #ffbf47;
 }
 
 .services-list-tools {
-  background-color:#3bbce3;
+  background-color: #3bbce3;
 }
 
 .services-list-technics {
-  background-color:#dc91d8;
+  background-color: #dc91d8;
 }
 
 .services-list-sale {
-  background-color:#8ed78f;
+  background-color: #8ed78f;
 }
 
 .services-list-delivery {
-  background-color:#ffc047;
+  background-color: #ffc047;
 }
 
 .services-list .add-info {
@@ -219,12 +219,12 @@ a {
 .slider-item-title {
   font-size: 36px;
   line-height: 36px;
-  font-weight: bold;
+  font-weight: 700;
   color: #ffffff;
 }
 
 .slide-description {
-  font-family: "PT-Sans";
+  font-family: "PT-Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
@@ -269,7 +269,7 @@ a {
 
 .goods-list li,
 .popular-manufacturers-list li {
-  border:1px solid #eaeaea;
+  border: 1px solid #eaeaea;
 }
 
 .goods-list li:hover {
@@ -277,27 +277,27 @@ a {
 }
 
 .good-title {
-  font-family:"PT Sans";
+  font-family:"PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 20px;
-  font-weight: bold;
+  font-weight: 700;
   color: #000000;
 }
 
 .goods-price-old {
-  font-family:"PT Sans";
+  font-family:"PT Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
-  font-weight: bold;
+  font-weight: 700;
   color: #a9a9a9;
   text-decoration: line-through;
 }
 
 .goods-price-new {
-  font-family:"PT Sans";
+  font-family:"PT Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
-  font-weight: bold;
+  font-weight: 700;
   color: #ffffff;
   background-color: #ee3643;
 }
@@ -323,7 +323,7 @@ a {
 }
 
 .supplies-info {
-  font-family:"PT Sans";
+  font-family:"PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -336,7 +336,7 @@ a {
 .supplies-list-link {
   font-size: 21px;
   line-height: 30px;
-  font-weight:bold;
+  font-weight: 700;
   color: #ffffff;
 
   border-top: 1px solid #405069;
@@ -353,12 +353,12 @@ a {
 .supplies-list-link-current {
   color: #32425c;
   background-color: #ffffff;
-  border:none;
+  border: none;
 }
 
 .supplies-list-link-current:hover,
 .supplies-list-link-current:focus {
-  background-color: transparent;
+  background-color: #ffffff;
 }
 
 .supplies-description-title {
@@ -368,7 +368,7 @@ a {
 }
 
 .supplies-description-info {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -382,7 +382,7 @@ a {
 }
 
 .about-us-text {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -507,7 +507,7 @@ a {
 
 .write-us-form input,
 .message-field{
-  font-family:"PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #a9a9a9;
@@ -520,7 +520,7 @@ a {
 }
 
 .write-us-form input[type=submit] {
-  font-family: "Cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
@@ -543,60 +543,57 @@ a {
 
 /*Стили каталога*/
 
-.login-list {
-  list-style: none;
-}
 
-.login-list li:first-child {
+.login-block div:first-child {
   background-color: #ffffff;
 }
 
-.login-list-item a {
+.login-block-item a {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
 }
 
-.login-list-item a:hover,
-.login-list-item a:focus {
+.login-block-item a:hover,
+.login-block-item a:focus {
   color: #ee3643;
 }
 
-.login-list-item a:active {
+.login-block-item a:active {
   color: #000000;
   opacity: 0.3;
 }
 
-.login-list-item-account a:first-child:hover,
-.login-list-item-account a:first-child:focus
+.login-block-item-account a:first-child:hover,
+.login-block-item-account a:first-child:focus
  {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
 }
 
-.login-list li:nth-child(2) a,
-.login-list li:nth-child(3) a {
+.login-block div:nth-child(2) a,
+.login-block div:nth-child(3) a {
   font-size: 16px;
   line-height: 18px;
   color: #32425c;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
-.login-list li:nth-child(2) a:hover,
-.login-list li:nth-child(2) a:focus,
-.login-list li:nth-child(3) a:hover,
-.login-list li:nth-child(3) a:focus {
+.login-block div:nth-child(2) a:hover,
+.login-block div:nth-child(2) a:focus,
+.login-block div:nth-child(3) a:hover,
+.login-block div:nth-child(3) a:focus {
   color: #ee3643;
 }
 
-.login-list li:nth-child(2) a:active,
-.login-list li:nth-child(3) a:active {
+.login-block li:nth-child(2) a:active,
+.login-block li:nth-child(3) a:active {
   color: rgba(50, 66, 92, 0.3);
 }
 
 .main-catalog {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -609,7 +606,7 @@ a {
 
 .breadcrumbs a,
 .filter-manufacturers-title{
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -621,7 +618,7 @@ a {
 }
 
 .perforators-block-title{
-  font-family: "Cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
@@ -644,7 +641,7 @@ a {
 .filter-legend {
   font-size: 17px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .filter-input-label {
@@ -653,7 +650,7 @@ a {
 }
 
 .manufacturers-form input[type=submit] {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -667,7 +664,7 @@ a {
 }
 
 .sort-list a {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.3);
@@ -704,7 +701,7 @@ a {
 }
 
 .page-switcher a {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: rgba(0, 0, 0, 1);
@@ -720,7 +717,7 @@ a {
 }
 
 .page-switcher-current a {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #ffffff;
