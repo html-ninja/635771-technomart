@@ -11,17 +11,17 @@
     <header class="page-header">
       <section class="header-top">
         <div class="header-top-wrapper">
-        <a class="logo" href="index.html" aria-label="Ссылка на главную страницу">
+          <a class="logo logo-header" href="index.html" aria-label="Ссылка на главную страницу">
           Техномарт
         </a>
-        <form class="search" method="post" action="https://echo.htmlacademy.ru">
-          <label class="search-field" aria-label="Строка поиска">Поиск
+          <form class="search" method="post" action="https://echo.htmlacademy.ru">
+            <label class="search-field" aria-label="Строка поиска">Поиск
             <input type="search" name="search">
           </label>
-        </form>
-        <a class="store-nav store-nav-bookmarks" href="#">Закладки: 0</a>
-        <a class="store-nav store-nav-cart" href="#">Корзина: 0</a>
-        <a class="order" href="#">Оформить заказ</a>
+          </form>
+          <a class="store-nav store-nav-bookmarks" href="#">Закладки: 0</a>
+          <a class="store-nav store-nav-cart" href="#">Корзина: 0</a>
+          <a class="order" href="#">Оформить заказ</a>
         </div>
       </section>
       <section class="header-middle">
@@ -36,111 +36,121 @@
             <a class="login-block-item-logout" href="#" aria-label="Выйти из аккаунта"></a>
           </div>
           <ul class="login-block-item-list">
-          <li class="login-block-item login-block-list-item"><a href="#">Мои заказы</a></li>
-          <li class="login-block-item login-block-item-mark login-block-list-item"><a href="#">Личный кабинет</a></li>
+            <li class="login-block-item login-block-list-item"><a href="#">Мои заказы</a></li>
+            <li class="login-block-item login-block-item-mark login-block-list-item"><a href="#">Личный кабинет</a></li>
           </ul>
+        </div>
+        <nav class="main-nav">
+          <ul class="navigation-list">
+            <li class="navigation-list-item"><a href="#">Главная</a></li>
+            <li class="navigation-list-item"><a href="#">Компания</a></li>
+            <li class="navigation-list-item"><a href="catalog.html">Каталог</a></li>
+            <li class="navigation-list-item"><a href="#">Новости</a></li>
+            <li class="navigation-list-item"><a href="#">Спецпредложения</a></li>
+            <li class="navigation-list-item"><a href="#">Доставка</a></li>
+            <li class="navigation-list-item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
       </section>
-      <nav class="main-nav">
-        <ul class="navigation-list">
-          <li class="navigation-list-item"><a href="#">Главная</a></li>
-          <li class="navigation-list-item"><a href="#">Компания</a></li>
-          <li class="navigation-list-item"><a href="#">Каталог</a></li>
-          <li class="navigation-list-item"><a href="#">Новости</a></li>
-          <li class="navigation-list-item"><a href="#">Спецпредложения</a></li>
-          <li class="navigation-list-item"><a href="#">Доставка</a></li>
-          <li class="navigation-list-item"><a href="#">Контакты</a></li>
-       </ul>
-      </nav>
-     </header>
-     <main class="container main-catalog">
-       <section class="catalog-page">
-         <ul class="breadcrumbs">
-           <li class="breadcrumbs-item"><a class="path-list-item-link" href="#" aria-label="Ссылка на главную страницу магазина"></a></li>
-           <li class="breadcrumbs-item"><a class="path-list-item-link" href="#">Каталог</a></li>
-           <li class="breadcrumbs-item"><a class="path-list-item-link" href="#">Инструмент</a></li>
-           <li class="breadcrumbs-item-current"><a class="path-list-item-link">Перфораторы</a></li>
-         </ul>
-         <div class="perforators-block">
-           <h1 class="perforators-block-title">Перфораторы</h1>
-         </div>
-         <div class="sorting-methods">
-         <aside class="filter">
-           <div class="filter-block">
-             <h2 class="filter-manufacturers-title">Фильтр:</h2>
-           </div>
-           <form class="manufacturers-form" method="get" action="https://echo.htmlacademy.ru">
-             <fieldset class="manufacturers-form-fieldset"><legend class="filter-legend">Цена:</legend>
-               <input class="form-input form-input-range" type="range" min="0" max="30500" step="500" name="price">
-               <div class="range-input">
-                 <span class="span-handler"></span>
-                 <span class="span-handler"></span>
-               </div>
-             </fieldset>
-             <fieldset class="manufacturers-form-fieldset form-manufacturer"><legend class="filter-legend">Производители:</legend>
-               <ul class="manufacturers-form-list">
-                 <li class="manufacturers-form-list-item">
-               <label class="filter-input-label" aria-label="Поле для выбора производителя Bosch">
+    </header>
+    <main class="main-catalog">
+      <section class="catalog-container catalog-page">
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="path-list-item-link" href="#" aria-label="Ссылка на главную страницу магазина"></a>
+          </li>
+          <li class="breadcrumbs-item"><a class="path-list-item-link" href="#">Каталог</a></li>
+          <li class="breadcrumbs-item"><a class="path-list-item-link" href="#">Инструмент</a></li>
+          <li class="breadcrumbs-item-current"><a class="path-list-item-link">Перфораторы</a></li>
+        </ul>
+        <div class="perforators-block">
+          <h1 class="perforators-block-title">Перфораторы</h1>
+        </div>
+        <aside class="filter">
+          <div class="filter-block">
+            <h2 class="filter-manufacturers-title">Фильтр:</h2>
+          </div>
+          <form class="manufacturers-form" method="get" action="https://echo.htmlacademy.ru">
+            <fieldset class="manufacturers-form-fieldset">
+              <legend class="filter-legend">Цена:</legend>
+              <input class="form-input form-input-range" type="range" min="0" max="30500" step="500" name="price">
+              <div class="range-input">
+                <span class="span-handler"></span>
+                <span class="span-handler"></span>
+              </div>
+            </fieldset>
+            <fieldset class="manufacturers-form-fieldset form-manufacturer">
+              <legend class="filter-legend">Производители:</legend>
+              <ul class="manufacturers-form-list">
+                <li class="manufacturers-form-list-item">
+                  <label class="filter-input-label" aria-label="Поле для выбора производителя Bosch">
                  <input class="visually-hidden form-input form-input-checkbox" type="checkbox" name="Bosch" checked>
                    Bosch
                </label>
-                 </li>
-                 <li class="manufacturers-form-list-item">
-               <label class="filter-input-label" aria-label="Поле для выбора производителя Интерскол">
+                </li>
+                <li class="manufacturers-form-list-item">
+                  <label class="filter-input-label" aria-label="Поле для выбора производителя Интерскол">
                  <input class="visually-hidden form-input form-input-checkbox" type="checkbox" name="Интерскол">
                    Интерскол
                </label>
-             </li>
-             <li class="manufacturers-form-list-item">
-               <label class="filter-input-label" aria-label="Поле для выбора производителя Makita">
+                </li>
+                <li class="manufacturers-form-list-item">
+                  <label class="filter-input-label" aria-label="Поле для выбора производителя Makita">
                  <input class="visually-hidden form-input form-input-checkbox" type="checkbox" name="Makita" checked>
                    Makita
                </label>
-             </li>
-             <li class="manufacturers-form-list-item">
-               <label class="filter-input-label" aria-label="Поле для выбора производителя Dewalt">
+                </li>
+                <li class="manufacturers-form-list-item">
+                  <label class="filter-input-label" aria-label="Поле для выбора производителя Dewalt">
                  <input class="visually-hidden form-input form-input-checkbox" type="checkbox" name="Dewalt">
                    Dewalt
                  </label>
-               </li>
-               <li class="manufacturers-form-list-item">
-                 <label class="filter-input-label" aria-label="Поле для выбора производителя Hitachi">
+                </li>
+                <li class="manufacturers-form-list-item">
+                  <label class="filter-input-label" aria-label="Поле для выбора производителя Hitachi">
                    <input class="visually-hidden form-input form-input-checkbox" type="checkbox" name="Hitachi">
                      Hitachi
                  </label>
-               </li>
-             </fieldset>
-             <fieldset class="manufacturers-form-fieldset">
-               <legend class="filter-legend">Питание:</legend>
-               <ul class="manufacturers-form-list">
-                 <li class="manufacturers-form-list-item">
-                 <label class="filter-input-label" aria-label="Выбрать аккумуляторный тип питания">
-                   <input class="visually-hidden form-input form-input-radio" type="radio" name="Аккумуляторные" checked>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="manufacturers-form-fieldset power-type">
+              <legend class="filter-legend">Питание:</legend>
+              <ul class="manufacturers-form-list">
+                <li class="manufacturers-form-list-item">
+                  <label class="filter-input-label" aria-label="Выбрать аккумуляторный тип питания">
+                   <input class="visually-hidden form-input form-input-radio" type="radio" name="power-type-radio" value="Аккумуляторные" checked>
                     Аккумуляторные
                  </label>
-               </li>
-               <li class="manufacturers-form-list-item">
-                 <label class="filter-input-label" aria-label="Выбрать сетевой тип питания">
-                   <input class="visually-hidden form-input form-input-radio" type="radio" name="Сетевые">
+                </li>
+                <li class="manufacturers-form-list-item">
+                  <label class="filter-input-label" aria-label="Выбрать сетевой тип питания">
+                   <input class="visually-hidden form-input form-input-radio" type="radio" name="power-type-radio" value="Сетевые">
                      Сетевые
                  </label>
-               </li>
-               </fieldset>
-                 <input class="form-input form-input-submit" type="submit" value="Показать" aria-label="Показать товары с учетом параметров фильтра">
-            </form>
+                </li>
+              </ul>
+            </fieldset>
+            <input class="form-input form-input-submit" type="submit" value="Показать" aria-label="Показать товары с учетом параметров фильтра">
+          </form>
         </aside>
-        <div class="filter-block filter-sort">
-          <h2 class="filter-manufacturers-title">Сортировка:</h2>
-          <ul class="sort-list">
-            <li class="sort-list-item"><a class="sort-by" aria-label="По цене" href="#">По цене</a></li>
-            <li class="sort-list-item"><a class="sort-by" aria-label="По типу" href="#">По типу</a></li>
-            <li class="sort-list-item"><a class="sort-by" aria-label="По функционалу" href="#">По функционалу</a></li>
-            <li class="sort-list-item"><a class="sort-by sort-by-arrow" aria-label="По возрастанию" href="#"></a></li>
-            <li class="sort-list-item"><a class="sort-by sort-by-arrow" aria-label="По убыванию" href="#"></a></li>
-          </ul>
-        </div>
-      </div>
-        <section class="goods">
-          <h2 class="visually-hidden">Список перфораторов</h2>
+        <div class="catalog-block">
+          <div class="filter-block filter-sort">
+            <h2 class="filter-manufacturers-title">Сортировка:</h2>
+            <ul class="sort-list">
+              <li class="sort-list-item"><a class="sort-by" aria-label="По цене" href="#">По цене</a></li>
+              <li class="sort-list-item"><a class="sort-by" aria-label="По типу" href="#">По типу</a></li>
+              <li class="sort-list-item"><a class="sort-by" aria-label="По функционалу" href="#">По функционалу</a></li>
+              <li class="sort-list-item">
+                <a class="sort-by sort-by-arrow" aria-label="По возрастанию" href="#"></a>
+              </li>
+              <li class="sort-list-item">
+                <a class="sort-by sort-by-arrow" aria-label="По убыванию" href="#"></a>
+              </li>
+            </ul>
+          </div>
+          <section class="goods">
+            <h2 class="visually-hidden">Список перфораторов</h2>
             <ul class="goods-list goods-list-catalog">
               <li class="goods-list-item goods-list-catalog-item">
                 <a class="good-list-item-link" href=#>
@@ -266,93 +276,97 @@
               <li class="page-switcher-item"><a class="page" href="#" aria-label="Переход на третью страницу">3</a></li>
               <li class="page-switcher-item"><a class="page" href="#" aria-label="Переход на следующую страницу">Следующая</a></li>
             </ul>
+        </div>
         </section>
         <div class="about-perforators">
           <div class="about-perforators-wrapper">
-          <b class="perforators-block-title">Пара слов о перфораторах</b>
-          <p class="about-perforators-text">Перфоратор — универсальный строительный инструмент.
-             Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
-             Существуют электромеханические и пневматические перфораторы.
-             Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.
-             В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
-          </p>
+            <b class="perforators-block-title">Пара слов о перфораторах</b>
+            <p class="about-perforators-text">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br> Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
+            </p>
           </div>
         </div>
-     </main>
-     <footer class="page-footer">
-       <section class="footer-top">
-         <div class="footer-top-center">
-         <div class="footer-top-wrap">
-         <a class="logo" href="index.html" aria-label="Ссылка на главную страницу">
+    </main>
+    <footer class="page-footer">
+      <section class="footer-top">
+        <div class="footer-top-center">
+          <div class="footer-top-wrap">
+            <a class="logo logo-footer" href="index.html" aria-label="Ссылка на главную страницу">
            Техномарт
          </a>
-         <b class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+            <b class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
          +7 (812) 555-05-55
          </b>
-         </div>
-         <h2 class="visually-hidden">Список разделов сайта</h2>
-         <div class="footer-top-bottom-wrap">
-         <ul class="footer-list">
-           <li class="footer-list-item"><a href="#">Компания</a></li>
-           <li class="footer-list-item"><a href="#">Новости</a></li>
-           <li class="footer-list-item"><a href="#">Каталог</a></li>
-           <li class="footer-list-item"><a href="#">Доставка</a></li>
-           <li class="footer-list-item"><a href="#">Контакты</a></li>
-         </ul>
-         <ul class="footer-list footer-list-yellow">
-           <li class="footer-list-item footer-item-yellow"><a href="#">Материалы</a></li>
-           <li class="footer-list-item footer-item-yellow"><a href="#">Техника</a></li>
-           <li class="footer-list-item footer-item-yellow"><a href="#">Инструмент</a></li>
-           <li class="footer-list-item footer-item-yellow"><a href="#">Спецпредложения</a></li>
-         </ul>
-       </div>
-     </div>
-       </section>
-       <section class="footer-bottom">
-         <div class="footer-bottom-center">
-         <p class="footer-bottom-text">© 2010–2017 Компания «Техномарт»
-           Все права защищены
-         </p>
-         <h3 class="visually-hidden">Список ссылок на соц. сети</h3>
-         <ul class="social-media-list">
-           <li class="social-media-list-item"><a class="vk" href="#" aria-label="ссылка на страницу ВКонтакте"></a></li>
-           <li class="social-media-list-item"><a class="fb" href="#" aria-label="ссылка на страницу в Фэйсбук"></a></li>
-           <li class="social-media-list-item"><a class="in" href="#" aria-label="ссылка на страницу в Инстаграм"></a></li>
-         </ul>
-         <p class="footer-feedback">
-           <b class="">Обратная связь:</b>
-           <a class="link-to link-to-email" href="#" aria-label="Написать на электронную почту">mail@htmlacademy.ru</a>
-         </p>
-         <p class="footer-copyright">
-           <b>Разработано — </b>
-           <a class="link-to link-to-web" href="#" aria-label="Ссылка на сайт разработчика">htmlacademy.ru</a>
-         </p>
-       </div>
-       </section>
-     </footer>
-     <section class="modal-window">
-       <h2 class="visually-hidden">Форма отправки</h2>
-       <button class="modal-close" type="button" aria-label="Закрыть форму отправки"></button>
-       <form class="write-us-form" method="post" action="https://echo.htmlacademy.ru">
-         <label class="your-name" aria-label="Поле для ввода имени">Ваше имя
+          </div>
+          <h2 class="visually-hidden">Список разделов сайта</h2>
+          <div class="footer-top-bottom-wrap">
+            <ul class="footer-list">
+              <li class="footer-list-item"><a href="#">Компания</a></li>
+              <li class="footer-list-item"><a href="#">Новости</a></li>
+              <li class="footer-list-item"><a href="#">Каталог</a></li>
+              <li class="footer-list-item"><a href="#">Доставка</a></li>
+              <li class="footer-list-item"><a href="#">Контакты</a></li>
+            </ul>
+            <ul class="footer-list footer-list-yellow">
+              <li class="footer-list-item footer-item-yellow"><a href="#">Материалы</a></li>
+              <li class="footer-list-item footer-item-yellow"><a href="#">Техника</a></li>
+              <li class="footer-list-item footer-item-yellow"><a href="#">Инструмент</a></li>
+              <li class="footer-list-item footer-item-yellow"><a href="#">Спецпредложения</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="footer-bottom">
+        <div class="footer-bottom-center">
+          <p class="footer-bottom-text">© 2010–2017 Компания «Техномарт» Все права защищены
+          </p>
+          <h3 class="visually-hidden">Список ссылок на соц. сети</h3>
+          <ul class="social-media-list">
+            <li class="social-media-list-item">
+              <a class="vk" href="#" aria-label="ссылка на страницу ВКонтакте"></a>
+            </li>
+            <li class="social-media-list-item">
+              <a class="fb" href="#" aria-label="ссылка на страницу в Фэйсбук"></a>
+            </li>
+            <li class="social-media-list-item">
+              <a class="in" href="#" aria-label="ссылка на страницу в Инстаграм"></a>
+            </li>
+          </ul>
+          <p class="footer-feedback">
+            <b class="">Обратная связь:</b>
+            <a class="link-to link-to-email" href="#" aria-label="Написать на электронную почту">mail@htmlacademy.ru</a>
+          </p>
+          <p class="footer-copyright">
+            <b>Разработано — </b>
+            <a class="link-to link-to-web" href="#" aria-label="Ссылка на сайт разработчика">htmlacademy.ru</a>
+          </p>
+        </div>
+      </section>
+    </footer>
+    <section class="modal-window">
+      <h2 class="visually-hidden">Форма отправки</h2>
+      <button class="modal-close" type="button" aria-label="Закрыть форму отправки"></button>
+      <form class="write-us-form" method="post" action="https://echo.htmlacademy.ru">
+        <div class="half-width">
+          <label class="your-name" aria-label="Поле для ввода имени">Ваше имя
            <input class="name-field" type="text" placeholder="Представьтесь, пожалуйста" aria-label="Поле для ввода вашего имени" name="name">
          </label>
-         <label class="your-email" aria-label="Поле для ввода мэйла">Ваш e-mail:
+          <label class="your-email" aria-label="Поле для ввода мэйла">Ваш e-mail:
            <input class="email-field" type="text" placeholder="Для отправки ответа" aria-label="Поле для ввода вашей электронной почты" name="email">
          </label>
-         <label class="your-message" aria-label="Поле для ввода текста письма">Текст письма:<br>
+        </div>
+        <label class="your-message" aria-label="Поле для ввода текста письма">Текст письма:<br>
            <textarea class="message-field" rows="5" cols="60">
              В свободной форме
            </textarea>
          </label>
-         <fieldset class="modal-bottom">
-           <input class="send-btn" type="submit" value="Отправить" aria-label="Кнопка отправки">
-         </fieldset>
-       </form>
-     </section>
-     <section class="map-pop-up">
-       <div class="map-large"></div>
-       <button class="modal-close" type="button" aria-label="Закрыть карту"></button>
-     </section>
-   </body>
- </html>
+        <fieldset class="modal-bottom">
+          <input class="send-btn" type="submit" value="Отправить" aria-label="Кнопка отправки">
+        </fieldset>
+      </form>
+    </section>
+    <section class="map-pop-up">
+      <div class="map-large"></div>
+      <button class="modal-close" type="button" aria-label="Закрыть карту"></button>
+    </section>
+  </body>
+</html>
