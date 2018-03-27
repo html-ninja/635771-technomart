@@ -90,34 +90,24 @@
               <legend class="filter-legend">Производители:</legend>
               <ul class="manufacturers-form-list">
                 <li class="manufacturers-form-list-item">
-                  <label class="filter-input-label" aria-label="Поле для выбора производителя Bosch">
-                 <input class="form-input form-input-checkbox" type="checkbox" name="Bosch" checked>
-                   Bosch
-                 </label>
+                  <input class="form-input form-input-checkbox" id="bosch" type="checkbox" name="Bosch" checked>
+                  <label class="filter-input-label" for="bosch" aria-label="Поле для выбора производителя Bosch">Bosch</label>
                 </li>
                 <li class="manufacturers-form-list-item">
-                  <label class="filter-input-label" aria-label="Поле для выбора производителя Интерскол">
-                 <input class="form-input form-input-checkbox" type="checkbox" name="Интерскол">
-                   Интерскол
-                 </label>
+                  <input class="form-input form-input-checkbox" id="interskol" type="checkbox" name="Интерскол">
+                  <label class="filter-input-label" for="interskol" aria-label="Поле для выбора производителя Интерскол">Интерскол</label>
                 </li>
                 <li class="manufacturers-form-list-item">
-                  <label class="filter-input-label" aria-label="Поле для выбора производителя Makita">
-                 <input class="form-input form-input-checkbox" type="checkbox" name="Makita" checked>
-                   Makita
-                 </label>
+                  <input class="form-input form-input-checkbox" id="makita" type="checkbox" name="Makita" checked>
+                  <label class="filter-input-label" for="makita" aria-label="Поле для выбора производителя Makita">Makita</label>
                 </li>
                 <li class="manufacturers-form-list-item">
-                  <label class="filter-input-label" aria-label="Поле для выбора производителя Dewalt">
-                 <input class="form-input form-input-checkbox" type="checkbox" name="Dewalt">
-                   Dewalt
-                 </label>
+                  <input class="form-input form-input-checkbox" id="dewalt" type="checkbox" name="Dewalt">
+                  <label class="filter-input-label" for="dewalt" aria-label="Поле для выбора производителя Dewalt">Dewalt</label>
                 </li>
                 <li class="manufacturers-form-list-item">
-                  <label class="filter-input-label" aria-label="Поле для выбора производителя Hitachi">
-                   <input class="visually-hidden form-input form-input-checkbox" type="checkbox" name="Hitachi">
-                     Hitachi
-                 </label>
+                  <input class="form-input form-input-checkbox" id="hitachi" type="checkbox" name="Hitachi">
+                  <label class="filter-input-label" for="hitachi" aria-label="Поле для выбора производителя Hitachi">Hitachi</label>
                 </li>
               </ul>
             </fieldset>
@@ -125,12 +115,12 @@
               <legend class="filter-legend">Питание:</legend>
               <ul class="manufacturers-form-list">
                 <li class="manufacturers-form-list-item">
-                  <label class="filter-input-label-radio" for="accumulator" aria-label="Выбрать аккумуляторный тип питания">Аккумуляторные</label>
                   <input class="form-input form-input-radio" id="accumulator" type="radio" name="power-type-radio" value="Аккумуляторные" checked>
+                  <label class="filter-input-label-radio" for="accumulator" aria-label="Выбрать аккумуляторный тип питания">Аккумуляторные</label>
                 </li>
                 <li class="manufacturers-form-list-item">
-                  <label class="filter-input-label-radio" for="lineal" aria-label="Выбрать сетевой тип питания">Сетевые</label>
                   <input class="form-input form-input-radio" id="lineal" type="radio" name="power-type-radio" value="Сетевые">
+                  <label class="filter-input-label-radio" for="lineal" aria-label="Выбрать сетевой тип питания">Сетевые</label>
                 </li>
               </ul>
             </fieldset>
@@ -373,31 +363,5 @@
         </div>
       </section>
     </footer>
-    <section class="modal-window">
-      <h2 class="visually-hidden">Форма отправки</h2>
-      <button class="modal-close" type="button" aria-label="Закрыть форму отправки"></button>
-      <form class="write-us-form" method="post" action="https://echo.htmlacademy.ru">
-        <div class="half-width">
-          <label class="your-name" aria-label="Поле для ввода имени">Ваше имя
-           <input class="name-field" type="text" placeholder="Представьтесь, пожалуйста" aria-label="Поле для ввода вашего имени" name="name">
-         </label>
-          <label class="your-email" aria-label="Поле для ввода мэйла">Ваш e-mail:
-           <input class="email-field" type="text" placeholder="Для отправки ответа" aria-label="Поле для ввода вашей электронной почты" name="email">
-         </label>
-        </div>
-        <label class="your-message" aria-label="Поле для ввода текста письма">Текст письма:<br>
-           <textarea class="message-field" rows="5" cols="60">
-             В свободной форме
-           </textarea>
-         </label>
-        <fieldset class="modal-bottom">
-          <input class="send-btn" type="submit" value="Отправить" aria-label="Кнопка отправки">
-        </fieldset>
-      </form>
-    </section>
-    <section class="map-pop-up">
-      <div class="map-large"></div>
-      <button class="modal-close" type="button" aria-label="Закрыть карту"></button>
-    </section>
-  </body>
+    </body>
 </html>

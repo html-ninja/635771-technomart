@@ -305,7 +305,7 @@
             <a class="map-link" href="#" aria-label="Открыть крупное отображение карты">
               <img class="map" src="img/map.png" width="300" height="158" alt="Офис на карте">
             </a>
-            <a class="catalog-link" href="#" aria-label="Открыть форму обратной связи">Заблудились? Напишите нам!</a>
+            <a class="catalog-link pop-up" href="#" aria-label="Открыть форму обратной связи">Заблудились? Напишите нам!</a>
           </div>
         </div>
       </section>
@@ -372,25 +372,29 @@
       <form class="write-us-form" method="post" action="https://echo.htmlacademy.ru">
         <div class="half-width">
           <label class="your-name" aria-label="Поле для ввода имени">Ваше имя
-          <input class="name-field" type="text" placeholder="Представьтесь, пожалуйста" aria-label="Поле для ввода вашего имени" name="name">
-        </label>
+           <input class="name-field" type="text" placeholder="Представьтесь, пожалуйста" aria-label="Поле для ввода вашего имени" name="name">
+         </label>
           <label class="your-email" aria-label="Поле для ввода мэйла">Ваш e-mail:
-          <input class="email-field" type="text" placeholder="Для отправки ответа" aria-label="Поле для ввода вашей электронной почты" name="email">
-        </label>
+           <input class="email-field" type="text" placeholder="Для отправки ответа" aria-label="Поле для ввода вашей электронной почты" name="email">
+         </label>
         </div>
         <label class="your-message" aria-label="Поле для ввода текста письма">Текст письма:<br>
-          <textarea class="message-field" rows="5" cols="60">
-            В свободной форме
-          </textarea>
-        </label>
+           <textarea class="message-field" rows="5" cols="60">
+             В свободной форме
+           </textarea>
+         </label>
         <fieldset class="modal-bottom">
           <input class="send-btn" type="submit" value="Отправить" aria-label="Кнопка отправки">
         </fieldset>
       </form>
     </section>
     <section class="map-pop-up">
-      <div class="map-large"></div>
-      <button class="modal-close" type="button" aria-label="Закрыть карту"></button>
+      <h2 class="visually-hidden">Как нас найти?</h2>
+      <div class="map-large">
+        <img class="big-map" src="img/map-large.png" width="940px" height="445px" alt="Офис компании по адресу ул. Большая Конюшенная, 19">
+      </div>
+      <button class="modal-close-map" type="button" aria-label="Закрыть карту"></button>
     </section>
+    <script src="js/pop-up.js"></script>
   </body>
 </html>
