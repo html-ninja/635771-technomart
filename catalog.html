@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -363,5 +363,20 @@
         </div>
       </section>
     </footer>
+    <section class="modal-catalog">
+      <h2 class="visually-hidden">Сообщение о добавлении товара в корзину</h2>
+      <button class="modal-close-cart" type="button" aria-label="Закрыть оповещение"></button>
+      <div class="added-to-cart">
+        <span class="added-text">
+          <span class="added-icon"></span>
+          Товар добавлен в корзину!
+        </span>
+      </div>
+      <div class="added-to-cart-bottom">
+       <a class="catalog-link place-order">Оформить заказ</a>
+       <a class="catalog-link continue-shopping">Продолжить покупки</a>
+      </div>
+    </section>
+    <script src="js/catalog.js"></script>
     </body>
 </html>
