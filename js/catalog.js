@@ -1,24 +1,84 @@
-var cartLink = document.querySelectorAll(".buy");
+var cartLink = document.querySelectorAll(".buy")
 var cartPopup = document.querySelector(".modal-catalog");
 var cartClose = cartPopup.querySelector(".modal-close-cart");
 
-for (var i = 0; i < cartLink.length; i++) {
-addEventListener("click", function (evt) {
+cartLink[0].addEventListener("click", function (evt) {
   evt.preventDefault();
-  cartPopup.classList.add("modal-cart-show");
-addEventListener("click", function (evt) {
-    evt.preventDefault();
-    cartPopup.classList.remove("modal-cart-show");
-  });
+- cartPopup.classList.add("modal-cart-show");
 });
-}
-
-var bookmarkLink = document.querySelectorAll(".bookmark");
-var bookmarkPopup = document.querySelector(".store-nav-bookmarks");
-
-for (var i = 0; i < bookmarkLink.length; i++) {
-addEventListener("click", function (evt) {
+ cartClose.addEventListener("click", function (evt) {
   evt.preventDefault();
-  bookmarkPopup.classList.add("item-added-to-cart");
+  cartPopup.classList.remove("modal-cart-show");
 });
-}
+
+cartLink[1].addEventListener("click", function (evt) {
+     evt.preventDefault();
+   - cartPopup.classList.add("modal-cart-show");
+});
+cartClose.addEventListener("click", function (evt) {
+     evt.preventDefault();
+     cartPopup.classList.remove("modal-cart-show");
+});
+
+cartLink[2].addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.add("modal-cart-show");
+});
+cartClose.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.remove("modal-cart-show");
+});
+
+cartLink[3].addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.add("modal-cart-show");
+});
+cartClose.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.remove("modal-cart-show");
+});
+
+cartLink[4].addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.add("modal-cart-show");
+});
+cartClose.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.remove("modal-cart-show");
+});
+
+cartLink[5].addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.add("modal-cart-show");
+});
+cartClose.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.remove("modal-cart-show");
+});
+
+cartLink[6].addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.add("modal-cart-show");
+});
+cartClose.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.remove("modal-cart-show");
+});
+
+cartLink[7].addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.add("modal-cart-show");
+});
+cartClose.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.remove("modal-cart-show");
+});
+
+cartLink[8].addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.add("modal-cart-show");
+});
+cartClose.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.remove("modal-cart-show");
+});
