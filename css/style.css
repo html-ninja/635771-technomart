@@ -58,22 +58,6 @@ a {
   height: 23px;
 }
 
-.search-header input::-webkit-input-placeholder {
-   color: #ffffff;
-}
-
-.search-header input:-moz-placeholder {
-   color: #ffffff;
-}
-
-.search-header input::-moz-placeholder {
-   color: #ffffff;
-}
-
-.search-header input:-ms-input-placeholder {
-   color: #ffffff;
-}
-
 .search-header input:active {
    color: #000000;
 }
@@ -84,18 +68,13 @@ a {
   font-family: "Cuprum", Arial, sans-serif;
   background-color: #293449;
   border: none;
-  padding: 11px 0;
-  padding-top: 9px;
-  padding-left: 47px;
+  padding-left: 55px;
   width: 270px;
   height: 42px;
 }
 
 .search-header {
   position: relative;
-}
-.search {
-  width: 270px;
 }
 
 .icon-loop {
@@ -106,7 +85,7 @@ a {
   width: 17px;
   height: 17px;
   top: 12px;
-  left: 16px;
+  left: 22px;
 }
 
 .icon-loop::before {
@@ -140,7 +119,7 @@ a {
   width: 17px;
   height: 17px;
   top: 12px;
-  left: 16px;
+  left: 22px;
 }
 
 .search-header input:focus ~ .icon-loop::before,
@@ -154,6 +133,22 @@ a {
   left: 0px;
   position: absolute;
   display: block;
+}
+
+.search-header input::-webkit-input-placeholder {
+   color: #ffffff;
+}
+
+.search-header input:-moz-placeholder {
+   color: #ffffff;
+}
+
+.search-header input::-moz-placeholder {
+   color: #ffffff;
+}
+
+.search-header input:-ms-input-placeholder {
+   color: #ffffff;
 }
 
 /*Навигация в хедере*/
@@ -178,10 +173,10 @@ a {
 }
 
 .store-nav-bookmarks {
-  padding-left: 43px;
+  padding-left: 20px;
   padding-top: 12px;
-  padding-right: 20px;
-  max-width: 140px;
+  padding-right: 5px;
+  width: 140px;
   position: relative;
   height: 20px;
 }
@@ -191,7 +186,7 @@ a {
   background-image: url(../img/icon-bookmark.png);
   background-repeat: no-repeat;
   top: 12px;
-  left: 15px;
+  left: 23px;
   height: 16px;
   width: 14px;
   position: absolute;
@@ -209,10 +204,10 @@ a {
 }
 
 .store-nav-cart {
-  max-width: 120px;
+  width: 120px;
   padding-top: 12px;
-  padding-left: 57px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
   height: 20px;
 
   position: relative;
@@ -224,7 +219,7 @@ a {
   background-image: url(../img/cart-icon.png);
   background-repeat: no-repeat;
   top: 12px;
-  left: 25px;
+  left: 12px;
   height: 15px;
   width: 15px;
   opacity: 0.3;
