@@ -62,6 +62,18 @@ a {
    color: #ffffff;
 }
 
+.search-header input:-moz-placeholder {
+   color: #ffffff;
+}
+
+.search-header input::-moz-placeholder {
+   color: #ffffff;
+}
+
+.search-header input:-ms-input-placeholder {
+   color: #ffffff;
+}
+
 .search-header input:active {
    color: #000000;
 }
@@ -848,7 +860,7 @@ a {
 }
 
 .goods-list-item:hover .actions{
-  display:block;
+  display: block;
 }
 
 .goods-list-item img{
@@ -1241,21 +1253,21 @@ a {
   position: relative;
 }
 
-#delivery:checked ~ .supplies-descriptions li:first-child {
+.supplies-container input:first-of-type:checked ~ .supplies-descriptions li:first-child {
   display: block;
 }
 
-#guarantee:checked ~ .supplies-descriptions li:nth-child(2) {
+.supplies-container input:nth-of-type(2):checked ~ .supplies-descriptions li:nth-child(2) {
   display: block;
 }
 
-#loan:checked ~ .supplies-descriptions li:last-child {
+.supplies-container input:last-of-type:checked ~ .supplies-descriptions li:last-child {
   display: block;
 }
 
-#delivery:checked ~ .supplies-list li:first-child label,
-#guarantee:checked ~ .supplies-list li:nth-child(2) label,
-#loan:checked ~ .supplies-list li:last-child label {
+.supplies-container input:first-of-type:checked ~ .supplies-list li:first-child label,
+.supplies-container input:nth-of-type(2):checked  ~ .supplies-list li:nth-child(2) label,
+.supplies-container input:last-of-type:checked ~ .supplies-list li:last-child label {
   color: #32425c;
   background-color: #ffffff;
   border: none;
