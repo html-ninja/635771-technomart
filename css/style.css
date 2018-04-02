@@ -760,10 +760,15 @@ a {
   width: 218px;
   height: 318px;
   margin-bottom: 20px;
+  margin-right: 20px;
   border: 1px solid #ccc;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
+}
+
+.goods-list li:last-of-type {
+  margin-right: 0;
 }
 
 .goods-list-img-4 {
@@ -914,7 +919,6 @@ a {
   padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -922,7 +926,6 @@ a {
   text-transform: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   width: 700px;
   margin-bottom: 30px;
 }
@@ -931,6 +934,11 @@ a {
   width: 218px;
   height: 316px;
   margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.goods-list-catalog li:nth-child(3n) {
+  margin-right: 0;
 }
 
 .goods-list li,
@@ -1069,7 +1077,9 @@ a {
 .supplies-list-link-current {
   color: #32425c;
   background-color: #ffffff;
-  border: none;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+
 }
 
 .supplies-list-link-current:hover,
@@ -1219,13 +1229,13 @@ a {
 }
 
 .supplies-description-shipping {
-  width: 300px;
+  width: 275px;
   margin: 0;
   padding: 0;
 }
 
 .description-guarantee-text {
-  width: 380px;
+  width: 375px;
   margin: 0;
   padding: 0;
 }
@@ -1292,6 +1302,7 @@ a {
 }
 
 .about-us-2 {
+  width: 390px;
   margin-bottom: 20px;
 }
 
@@ -1303,10 +1314,11 @@ a {
   margin: 0;
   padding: 0;
   margin-bottom: 31px;
+  width: 180px;
 }
 
 .map-link {
-  margin-bottom: 39px;
+  margin-bottom: 34px;
 }
 
 .delivery-companies-list {
@@ -1748,6 +1760,7 @@ a {
   height: 23px;
   width: 23px;
   position: absolute;
+  tab-index: 8;
 }
 
 .filter-input-label:hover::before {
@@ -1759,6 +1772,10 @@ a {
   height: 23px;
   width: 23px;
   position: absolute;
+}
+
+.form-input-checkbox:focus ~ .filter-input-label::before {
+  outline: 1px solid blue;
 }
 
 .form-input-checkbox:checked + .filter-input-label::before {
@@ -2123,7 +2140,7 @@ a {
   margin: 0;
   padding-left: 3px;
   margin-top: 27px;
-  width: 350px;
+  width: 340px;
 }
 
 .footer-list {
